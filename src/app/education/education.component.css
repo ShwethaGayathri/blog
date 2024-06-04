@@ -18,13 +18,29 @@ p{
   .education {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
   .education-img {
     width: 100px; 
-    margin: 0 10px;
+    margin: 10px;
     border-radius: 15px;
   }
+
+  @media (max-width: 600px) {
+    .education {
+        flex-direction: column; 
+    }
+
+    .education-img {
+        width: 80px;
+    }
+
+    .arrow {
+        display: none; 
+    }
+}
   
   .arrow {
     width: 0;
