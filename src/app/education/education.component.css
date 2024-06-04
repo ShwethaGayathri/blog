@@ -1,0 +1,39 @@
+
+h2{
+    text-shadow: 2px 2px 3px rgb(181, 181, 246); 
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.education-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+   
+  }
+  
+  .education {
+    display: flex;
+    align-items: center;
+  }
+  
+  .education-img {
+    width: 100px; 
+    margin: 0 10px;
+    border-radius: 15px;
+  }
+  
+  .arrow {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin: 0 10px;
+  }
+  
+  .right-arrow {
+    border-left: 20px solid #000;
+  }

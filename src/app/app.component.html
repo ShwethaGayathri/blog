@@ -1,0 +1,24 @@
+<div class="background" #background>
+    <img *ngFor="let image of images" [src]="'assets/images/' + image" [style.top.px]="getYPosition(image)"
+        [style.left.px]="getXPosition(image)">
+</div>
+
+<div class="typing-effect">
+    {{ typedText }}
+    <span class="blinker">|</span>
+  </div>
+
+<div class="section">
+    <div class="content">
+        <app-about></app-about>
+        <app-education></app-education>
+        <app-interests></app-interests>
+        <app-skills></app-skills>
+        <app-letsconnect></app-letsconnect>
+    </div>
+</div>
+
+
+<footer class="footer">
+        <app-contact-section></app-contact-section>
+</footer>
