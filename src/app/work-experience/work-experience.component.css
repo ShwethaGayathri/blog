@@ -1,0 +1,91 @@
+.work-experience-container {
+  max-width: 900px;
+  margin: 0 auto;
+  /* padding: 10px 10px; */
+  color: #e0e0e0;
+}
+
+.company-logo {
+  height: 30px;
+  margin-top: 10px;
+  filter: brightness(1.1) drop-shadow(0 0 2px #00ffff70);
+  border-radius: 4px;
+}
+
+.avaya-company-logo {
+  height: 20px;
+  margin-top: 10px;
+  filter: brightness(1.1) drop-shadow(0 0 2px #00ffff70);
+  border-radius: 4px;
+}
+
+
+.heading {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0 0 8px #00ffff;
+}
+
+.timeline {
+  border-left: 3px solid #00ffff40;
+  padding-left: 30px;
+  position: relative;
+}
+
+.timeline-item {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -12px;
+  top: 5px;
+  width: 16px;
+  height: 16px;
+  background-color: #00ffff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+.timeline-date {
+  font-weight: 500;
+  font-size: 15px;
+  color: #999;
+  margin-bottom: 5px;
+  letter-spacing: 0.5px;
+  padding-left: 10px;
+}
+
+.timeline-content {
+  background: rgba(18, 18, 18, 0.5); 
+  padding: 16px 20px;
+  border-left: 4px solid #00ffff80;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-content:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+}
+
+.job-title {
+  margin: 0;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.company-name {
+  margin-top: 4px;
+  font-size: 15px;
+  color: #bbbbbb;
+}

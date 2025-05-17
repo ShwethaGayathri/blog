@@ -1,7 +1,15 @@
-h2{
+/* h2{
     text-shadow: 2px 2px 3px rgb(181, 181, 246); 
+} */
+ .heading {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0 0 8px #00ffff;
 }
 p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    font-size: 15px;
 }
